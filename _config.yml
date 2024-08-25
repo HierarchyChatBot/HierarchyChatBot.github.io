@@ -22,7 +22,7 @@ title: LangGraph-GUI
 email: homun@posetmage.com
 url: https://HierarchyChatBot.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
-description: LangGraph-GUI
+description: HierarchyChatBot
 #baseurl:  # the subpath of your site, e.g. /blog
 repository: HierarchyChatBot/HierarchyChatBot.github.io
 

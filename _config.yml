@@ -27,12 +27,16 @@ description: HierarchyChatBot
 repository: HierarchyChatBot/HierarchyChatBot.github.io
 
 defaults:
-  -
+  - 
     scope:
-      path: ""
+      path: "/ChatBot/*"
     values:
-      layout: "page/note/basic"
-
+      layout: "chatbot"
+  - 
+    scope:
+      path: "/Graph/*"
+    values:
+      layout: "garph"
 
 
 exclude:

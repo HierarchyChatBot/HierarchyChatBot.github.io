@@ -1,8 +1,3 @@
----
-layout: frontend
-
----
-
 # Graph Examples
 repo at [LangGraph-GUI/examples](https://github.com/LangGraph-GUI/examples)
 

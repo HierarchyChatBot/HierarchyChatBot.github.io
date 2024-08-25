@@ -3,9 +3,13 @@ layout: base
 
 ---
 
-# LangGraph-GUI
+# LangGraph-ChatBot
 
-Welcome to the LangGraph-GUI project documentation!
+## ChatBot Mode
+
+See [ChatBot](/ChatBot)
+
+## Graph Mode
 
 - To understand more about this project, visit the [About](/About) page.
 - For steps on using the GUI frontend, check out the [Frontend](/Frontend) documentation.

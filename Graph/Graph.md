@@ -1,8 +1,3 @@
----
-layout: frontend
-
----
-
 # GUI Graph
 
 ## Explanation

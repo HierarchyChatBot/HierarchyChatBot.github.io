@@ -1,8 +1,3 @@
----
-layout: frontend
-
----
-
 # Run Graph
 This will Run graph.json on server.
 That is, you need upload graph.json first.

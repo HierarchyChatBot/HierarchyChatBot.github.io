@@ -6,7 +6,7 @@ layout: base
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('/Frontend/outline.html')
+    fetch('/Graph/outline.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('outline').innerHTML = data;

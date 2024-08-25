@@ -1,7 +1,7 @@
 
 # UI
 
-There are several buttoms  
+There are several buttons  
 ![](./images/button.webp)
 
 ## Frontend Panel

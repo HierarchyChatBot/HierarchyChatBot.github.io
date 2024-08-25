@@ -1,10 +1,7 @@
 
 
-# About Frontend
+# About Graph Mode
 
-This is node-edge based gui will export to json as saved graph.
+This is automation workflow visualized by node-edge
 
-![](/cover.webp)
-
-*This is LangGraph-GUI ReactFlow frontend, If you want to run in docker compose, see [LangGraph-GUI](https://github.com/LangGraph-GUI/LangGraph-GUI)*
-
+![](graph.webp)

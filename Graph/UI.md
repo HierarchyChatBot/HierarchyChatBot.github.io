@@ -4,24 +4,22 @@
 There are several buttoms  
 ![](./images/button.webp)
 
-## New
+## Frontend Panel
+* ChatBot
+  * Change to ChatBot Layout
+* New Graph
+  * clean the canvas and graph
+* Save Graph
+  * Save the graph into json
+* Load Graph
+  * Load the graph from json
+* Run Graph
+  * Run the Graph with AI, real generating
 
-New will clean the canvas.
-
-## Save
-
-Save the graph into json to your computer.
-
-## Load
-Read the graph json from your computer.
-
-## Run
-Run graph.json on server, for more info, see [Run](./Run)
-
-## Upload 
-a file to server env, for Run.
-* upload graph.json for Run on server
-* upload other file for workflow data
-
-## Download
-download all files from server such generated files and log file
+## Backend Panel
+* File to Cache
+  * transmit files to AI environment
+* Get from Cache
+  * transmit files to AI environment
+* Clean Cache
+  * delete all files at AI environment

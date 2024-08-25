@@ -29,6 +29,11 @@ repository: HierarchyChatBot/HierarchyChatBot.github.io
 defaults:
   - 
     scope:
+      path: ""
+    values:
+      layout: "base"
+  - 
+    scope:
       path: "/ChatBot/*"
     values:
       layout: "chatbot"
@@ -36,7 +41,7 @@ defaults:
     scope:
       path: "/Graph/*"
     values:
-      layout: "garph"
+      layout: "graph"
 
 
 exclude:

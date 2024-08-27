@@ -72,58 +72,32 @@ function copyToClipboard(button) {
 
 cookbook
 
-[
-  {
-    "chapter": "Define Target Audience (TA)",
-    "description": "Identifying and understanding your target audience is crucial for tailoring your SEO content effectively.",
-    "subItems": [
-      {
-        "item": "Audience Research and Personas",
-        "description": "Techniques for discovering your audience and creating detailed profiles to guide content creation."
-      }
-    ]
-  },
-  {
-    "chapter": "Product Description",
-    "description": "Crafting a clear and compelling description of your product or service is essential for SEO and engagement.",
-    "subItems": [
-      {
-        "item": "Features, Benefits, and USPs",
-        "description": "Highlighting key features, benefits, and unique selling points of your product."
-      }
-    ]
-  },
-  {
-    "chapter": "Keywords",
-    "description": "Identifying and integrating the right keywords into your content helps improve search engine rankings and visibility.",
-    "subItems": [
-      {
-        "item": "Keyword Research and Integration",
-        "description": "Techniques for finding relevant keywords and best practices for incorporating them naturally into your content."
-      }
-    ]
-  },
-  {
-    "chapter": "Outline",
-    "description": "Creating a structured outline ensures your content is organized and covers all necessary points.",
-    "subItems": [
-      {
-        "item": "Introduction, Main Sections, and Conclusion",
-        "description": "Crafting an engaging opening, outlining key sections, and summarizing with a strong conclusion and CTA."
-      }
-    ]
-  },
-  {
-    "chapter": "Write Content",
-    "description": "Putting your outline into action by writing high-quality, SEO-optimized content.",
-    "subItems": [
-      {
-        "item": "Engaging Introduction, Detailed Body, and Strong Conclusion",
-        "description": "Creating an engaging introduction, expanding on key points in the body, and wrapping up with a compelling conclusion and CTA."
-      }
-    ]
-  }
-]
+{
+  "chapters": [
+    {
+      "chapter": "Define Game Concept",
+      "description": "Establish the core idea and vision for the game.",
+      "subItems": [
+        {
+          "item": "Concept Development",
+          "description": "Develop the core idea of the game, including genre, theme, and unique selling points."
+        },
+        {
+          "item": "Initial Research",
+          "description": "Research similar games and identify what makes your game unique."
+        }
+      ]
+    },
+    {
+      "chapter": "Define Target Audience (TA)",
+      "description": "Identify and understand your target audience to tailor the game effectively.",
+      "subItems": [
+        {
+          "item": "Audience Research and Personas",
+          "description": "Create detailed profiles of your ideal players to guide design decisions."
+        }
+      ]
+    },
 
 
 our cookbook will convert into workflow graph such

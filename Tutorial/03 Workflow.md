@@ -3,66 +3,48 @@ layout: page/note/basic
 ---
 
 
-# Consult 
+## Switch to Workflow Mode 
 
-## 1. Load Template
-
+## 1. Load SEO Template
 
 * Download template
-<button class="download-btn" data-url="https://raw.githubusercontent.com/HierarchyChatBot/examples/87119e02fb6a6efa81a1dae4174334fcc74639d1/Uncommon%20Success/consult.json">Download Consult template</button>
+<button class="download-btn" data-url="https://raw.githubusercontent.com/HierarchyChatBot/examples/main/SEO%20simple/seo.json">Download SEO template</button>
 
-* Load Book > consult.json
+* Load Book > seo.json
 <img src="./images/button loadbook.webp">
 
-## 2. Chat on chapter
+* Switch to Workflow Mode
 
-* Choose Chapter, sub item
-  * <img src="./images/choose subitem.webp" height="300">
-* Chat with AI
-  * <img src="./images/chat to AI.webp" height="400">
-  * keep chat
-  * <img src="./images/chat to AI 2.webp" height="300">
+## 2. Fill Prompt
 
-## 3. Fill Answers
-<img src="./images/fill to answer.webp" width="400">
+* Fill prompt for workflow
+  * <img src="./images/workflow fill.webp" height="300">
+* try prompt example snapshot
+<button class="download-btn" data-url="https://raw.githubusercontent.com/HierarchyChatBot/examples/main/SEO%20simple/seo_snapshot.json">Download SEO snapshot</button>
 
+## 3. Convert to Graph mode
 
-## 4. Export Report
-* <img src="./images/button export.webp">
-* see report
-  * <img src="./images/open report.webp.webp">
+* Press Gen Graph
+  * <img src="./images/workflow gen.webp">
+* Graph Editor Mode
+  * <img src="./images/workflow graph.webp">
 
 
+## 4. Generate Content
+* Clean old cache
+  * <img src="./images/workflow clean.webp">
+* Run Grph
+  * Press Run Graph
+    * <img src="./images/workflow run.webp">
+  * Run
+    * <img src="./images/workflow start run.webp">
+  * Wait AI Process
+    * <img src="./images/workflow wait run.webp">
+* Extract Result
+  * <img src="./images/workflow download.webp">
 
-<script>
-    // Select all buttons with the class 'download-btn'
-    const downloadButtons = document.querySelectorAll('.download-btn');
+## 5. View the content
+* unzip workspace.zip
+* See the content
 
-    // Add event listeners to each button
-    downloadButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Get the URL from the data-url attribute of the clicked button
-            const fileUrl = this.getAttribute('data-url');
-            
-            // Fetch the file and download it
-            fetch(fileUrl)
-                .then(response => response.blob()) // Convert response to blob
-                .then(blob => {
-                    // Create a link element to trigger download
-                    const a = document.createElement('a');
-                    const url = window.URL.createObjectURL(blob);
-                    a.href = url;
-                    // Set the file name dynamically from the URL (or hard-code it)
-                    a.download = fileUrl.split('/').pop(); 
-                    document.body.appendChild(a);
-                    a.click();  // Trigger download
-                    // Clean up
-                    setTimeout(() => {
-                        document.body.removeChild(a);
-                        window.URL.revokeObjectURL(url);
-                    }, 0);
-                })
-                .catch(error => console.error('Error downloading file:', error));
-        });
-    });
-</script>
+<script src="{{ '/assets/js/download-btn.js' | relative_url }}"></script>

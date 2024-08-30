@@ -42,7 +42,11 @@ defaults:
       path: "/Graph/*"
     values:
       layout: "graph"
-
+  - 
+    scope:
+      path: "/Tutorial/*"
+    values:
+      layout: "page/note/basic"
 
 exclude:
   - "*.mm.md"

@@ -21,15 +21,16 @@
   * <img src="./images/chat to AI 2.webp" height="300">
 
 ## 3. Fill Answers
-<img src="./images/fill to answer.webp" width="400">
-
+* Fill your answer after consult
+  * <img src="./images/fill to answer.webp" width="400">
+* Demo snapshot example
+<button class="download-btn" data-url="https://raw.githubusercontent.com/HierarchyChatBot/examples/main/Uncommon%20Success/snapshot.json">Download Consulted example</button>
 
 ## 4. Export Report
 * <img src="./images/button export.webp">
 * see report
   * <img src="./images/open report.webp">
-* Download snapshot example
-<button class="download-btn" data-url="https://raw.githubusercontent.com/HierarchyChatBot/examples/main/Uncommon%20Success/snapshot.json">Download Consult template</button>
+
 
 
 

@@ -16,6 +16,13 @@
 
 
 
-
-
 ## Grph
+* Control Panel
+  * buttons to control about graph flow
+  * <img src="./images/canvas panel.webp" height="300">
+* Graph Canvas
+  * visual graph workflow 
+  * <img src="./images/canvas graph.webp" height="300">
+* Mini-map
+  * mapview
+  * <img src="./images/canvas minimap.webp" height="300">

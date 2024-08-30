@@ -2,6 +2,10 @@
 title: LangGraph-ChatBot
 ---
 
+## [Tutorial](/Tutorial)
+Demo how to use this system
+
+
 ## [ChatBot Mode](/ChatBot)
 
 <img src="/ChatBot/chatbot.webp" style="height: 300px; display: inline;">
